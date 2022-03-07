@@ -37,13 +37,13 @@ function UserSearch() {
   return (
     <div className="flex justify-center">
       <ToastContainer className="mt-16" />
-      <form className="flex items-center" onSubmit={handleSubmit}>
+      <form className="flex items-center mx-3" onSubmit={handleSubmit}>
         <input
           type="text"
           value={text}
           placeholder="Enter github username"
           onChange={(e) => setText(e.target.value)}
-          className="outline-none border bg-gray-800 focus:bg-gray-900 text-slate-100 border-gray-900 text-lg focus:border-r-gray-500 p-2 rounded-lg rounded-r-none"
+          className="w-full outline-none p-2 border bg-gray-800 focus:bg-gray-900 text-slate-100 border-gray-900 text-lg focus:border-r-gray-500 rounded-lg rounded-r-none"
         />
         <button
           type="submit"

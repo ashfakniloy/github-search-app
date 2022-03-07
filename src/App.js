@@ -10,7 +10,7 @@ import User from "./pages/User";
 function App() {
   return (
     <BrowserRouter>
-      <div className="flex flex-col bg-gray-800 font-Poppins min-h-screen ">
+      <div className="flex flex-col bg-gray-800 font-Poppins min-h-screen">
         <Header />
 
         <div className="flex-1 ">
