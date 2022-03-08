@@ -11,8 +11,8 @@ const RepoItem = ({ repo }) => {
     stargazers_count,
   } = repo;
   return (
-    <div className="break-all mb-2 px-5 py-5 bg-gray-900 hover:bg-gray-900 duration-200 rounded-md">
-      <a href={html_url} target="_blank" rel="noreferrer">
+    <div className="mb-2 px-5 py-5 bg-gray-900 hover:bg-gray-900 duration-200 rounded-md">
+      <a href={html_url} target="_blank" rel="noreferrer" className="break-all">
         <FaLink className="inline mr-2" /> {name}
       </a>
       <p className="text-xs mt-2 text-slate-300">{description}</p>
