@@ -33,13 +33,13 @@ function User() {
 
   if (loading) {
     return (
-      <h2 className="text-4xl font-bold text-center text-slate-100 my-80 ">
+      <h2 className="text-4xl font-bold text-center text-gray-200 my-80 ">
         Loading...
       </h2>
     );
   } else {
     return (
-      <div className="mx-4 my-14 md:container md:mx-auto md:px-4 text-slate-100">
+      <div className="mx-4 mt-14 mb-4 md:container md:mx-auto md:px-4 text-slate-100">
         <div className="mb-4">
           <Link to="/" className="active:text-slate-300">
             {"<"} Back to search

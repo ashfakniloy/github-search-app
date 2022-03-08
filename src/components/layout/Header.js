@@ -8,8 +8,8 @@ const Header = () => {
   return (
     <div className="bg-gray-800 shadow-lg">
       <div className="flex justify-between items-center container mx-auto px-4 py-4 text-slate-100">
-        <div className="flex items-center">
-          <FaGithub className="inline mr-2 text-3xl" />
+        <div className="flex items-center gap-1">
+          <FaGithub className=" text-3xl" />
           <Link to="/" className="text-2xl font-bold">
             Github Search
           </Link>

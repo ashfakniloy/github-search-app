@@ -49,7 +49,7 @@ function UserResults() {
     );
   } else {
     return (
-      <h2 className="text-2xl font-semibold text-center text-slate-100 my-14 ">
+      <h2 className="text-2xl font-semibold text-center text-gray-100 my-14 ">
         Loading...
       </h2>
     );
