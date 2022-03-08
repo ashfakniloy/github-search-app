@@ -27,7 +27,7 @@ function ScrollToTop() {
   }, []);
 
   return (
-    <div>
+    <div className="rounded-full">
       <button
         onClick={scrollToTop}
         className={`fixed bottom-5 right-3 p-3 text-lg text-slate-100 bg-gray-600 rounded-full transition-opacity active:bg-gray-700 ${

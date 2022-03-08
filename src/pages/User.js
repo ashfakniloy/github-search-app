@@ -54,9 +54,7 @@ function User() {
               width={300}
               className="rounded-xl opacity-75"
             />
-            {/* <div className="absolute text-white bottom-5 md:bottom-60 md:mb-3 2xl:mb-0 lg:bottom-8 left-8"> */}
             <div className="absolute text-white left-6 top-64 md:top-44 lg:top-64">
-              {/* <h1 className="text-lg font-bold">{name}</h1> */}
               <p className="text-lg font-bold">{login}</p>
             </div>
           </div>
@@ -72,7 +70,7 @@ function User() {
             )}
             <p className="mt-3">{bio}</p>
             <a href={html_url} target="_blank" rel="noreferrer">
-              <button className="mt-8 px-4 py-3 border border-slate-100 hover:bg-gray-700 duration-200 rounded-lg uppercase">
+              <button className="mt-8 ml-1 px-3 py-2 border border-slate-400 hover:bg-gray-700 duration-200 rounded-lg uppercase">
                 visit github profile
               </button>
             </a>

@@ -2,7 +2,6 @@ import axios from "axios";
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
 const API = process.env.REACT_APP_GITHUB_URL;
-// const TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
 
 const initialState = {
   users: [],
@@ -14,9 +13,6 @@ const initialState = {
 
 const github = axios.create({
   baseURL: API,
-  // headers: {
-  //   Authorization: `token ${TOKEN}`,
-  // },
 });
 
 export const searchUser = createAsyncThunk(
