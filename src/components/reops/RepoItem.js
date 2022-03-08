@@ -15,7 +15,9 @@ const RepoItem = ({ repo }) => {
       <a href={html_url} target="_blank" rel="noreferrer" className="break-all">
         <FaLink className="inline mr-2" /> {name}
       </a>
-      <p className="text-xs mt-2 text-slate-300">{description}</p>
+      <p className="text-xs mt-2 text-slate-300 overflow-hidden">
+        {description}
+      </p>
       <div className="flex gap-2 mt-2">
         <div className="flex items-center  bg-gray-800 text-blue-400 text-xs  px-1.5 h-5 rounded-full">
           <FaEye className="mr-1" /> {watchers_count}
